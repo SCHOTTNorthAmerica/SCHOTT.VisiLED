@@ -10,7 +10,7 @@ using System.Linq;
 namespace SCHOTT.VisiLED.Serial
 {
     /// <summary>
-    /// VisiLEDComPort extenstion class to add simplified connection methods for CVLS units.
+    /// VisiLEDComPort extenstion class to add simplified connection methods for VisiLED units.
     /// </summary>
     public class VisiLEDComPort : ComPortBase
     {
@@ -275,7 +275,7 @@ namespace SCHOTT.VisiLED.Serial
         }
 
         /// <summary>
-        /// Default ComParameters to use for CVLS units.
+        /// Default ComParameters to use for VisiLED units.
         /// </summary>
         /// <returns>new ComParameter object</returns>
         public static ComParameters ComParameters()

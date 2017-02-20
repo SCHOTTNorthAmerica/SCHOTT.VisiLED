@@ -42,7 +42,7 @@ namespace SCHOTT.VisiLED.Serial
         #region Initialization Functions
 
         /// <summary>
-        /// Create a VisiLEDThreadedComPort for a CVLS unit. This port type should be used when the unit connection
+        /// Create a VisiLEDThreadedComPort for a VisiLED unit. This port type should be used when the unit connection
         /// state is unknown. Functions are provided to be notified of connections and status changes. When using
         /// a static configuration, consider using the VisiLEDComPort classes instead.
         /// </summary>
@@ -54,7 +54,7 @@ namespace SCHOTT.VisiLED.Serial
         }
 
         /// <summary>
-        /// Create a VisiLEDThreadedComPort for a CVLS unit. This port type should be used when the unit connection
+        /// Create a VisiLEDThreadedComPort for a VisiLED unit. This port type should be used when the unit connection
         /// state is unknown. Functions are provided to be notified of connections and status changes. When using
         /// a static configuration, consider using the VisiLEDComPort classes instead.
         /// </summary>
